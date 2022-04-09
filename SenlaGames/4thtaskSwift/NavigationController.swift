@@ -1,19 +1,19 @@
 //
-//  ViewController.swift
-//  SenlaGames
+//  NavigationController.swift
+//  4thtaskSwift
 //
-//  Created by Anastasia on 09.04.2022.
+//  Created by Anastasia on 29.03.2022.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class NavigationController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
-
+    
 
 }
-
