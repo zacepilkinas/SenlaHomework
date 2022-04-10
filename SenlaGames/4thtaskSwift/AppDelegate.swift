@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  SenlaGames
+//  4thtaskSwift
 //
-//  Created by Anastasia on 09.04.2022.
+//  Created by Anastasia on 28.03.2022.
 //
 
 import UIKit

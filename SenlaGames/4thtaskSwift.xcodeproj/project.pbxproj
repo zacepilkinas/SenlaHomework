@@ -7,27 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C88040C42801E12E004E8727 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88040C32801E12E004E8727 /* AppDelegate.swift */; };
-		C88040C62801E12E004E8727 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88040C52801E12E004E8727 /* SceneDelegate.swift */; };
-		C88040C82801E12E004E8727 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88040C72801E12E004E8727 /* ViewController.swift */; };
-		C88040CB2801E12E004E8727 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88040C92801E12E004E8727 /* Main.storyboard */; };
-		C88040CD2801E134004E8727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C88040CC2801E134004E8727 /* Assets.xcassets */; };
-		C88040D02801E134004E8727 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88040CE2801E134004E8727 /* LaunchScreen.storyboard */; };
+		C816871727FB83C100ABA2E2 /* Languages.swift in Sources */ = {isa = PBXBuildFile; fileRef = C816871627FB83C100ABA2E2 /* Languages.swift */; };
+		C816871927FC4B8E00ABA2E2 /* GameMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C816871827FC4B8E00ABA2E2 /* GameMode.swift */; };
+		C82C724A27F1F53D00225109 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82C724927F1F53D00225109 /* AppDelegate.swift */; };
+		C82C724C27F1F53D00225109 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82C724B27F1F53D00225109 /* SceneDelegate.swift */; };
+		C82C725327F1F54300225109 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C82C725227F1F54300225109 /* Assets.xcassets */; };
+		C82C725627F1F54300225109 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C82C725427F1F54300225109 /* LaunchScreen.storyboard */; };
+		C82C726027F2E81200225109 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82C725F27F2E81200225109 /* TabBarController.swift */; };
+		C82C726227F2E86D00225109 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82C726127F2E86D00225109 /* NavigationController.swift */; };
+		C82C726427F2E8D000225109 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82C726327F2E8CF00225109 /* GameViewController.swift */; };
+		C82C726627F2E8E000225109 /* CubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82C726527F2E8E000225109 /* CubeViewController.swift */; };
+		C8E51E4927F30A77001EFCBB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E51E4827F30A77001EFCBB /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C88040C02801E12E004E8727 /* SenlaGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SenlaGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C88040C32801E12E004E8727 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C88040C52801E12E004E8727 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C88040C72801E12E004E8727 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C88040CA2801E12E004E8727 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C88040CC2801E134004E8727 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C88040CF2801E134004E8727 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C88040D12801E134004E8727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C816871627FB83C100ABA2E2 /* Languages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Languages.swift; sourceTree = "<group>"; };
+		C816871827FC4B8E00ABA2E2 /* GameMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMode.swift; sourceTree = "<group>"; };
+		C82C724627F1F53D00225109 /* 4thtaskSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 4thtaskSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C82C724927F1F53D00225109 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C82C724B27F1F53D00225109 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C82C725227F1F54300225109 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C82C725527F1F54300225109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C82C725727F1F54300225109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C82C725F27F2E81200225109 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		C82C726127F2E86D00225109 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		C82C726327F2E8CF00225109 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C82C726527F2E8E000225109 /* CubeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeViewController.swift; sourceTree = "<group>"; };
+		C8E51E4827F30A77001EFCBB /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C88040BD2801E12E004E8727 /* Frameworks */ = {
+		C82C724327F1F53C00225109 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +47,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C88040B72801E12E004E8727 = {
+		C82C723D27F1F53C00225109 = {
 			isa = PBXGroup;
 			children = (
-				C88040C22801E12E004E8727 /* SenlaGames */,
-				C88040C12801E12E004E8727 /* Products */,
+				C82C724827F1F53D00225109 /* 4thtaskSwift */,
+				C82C724727F1F53D00225109 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C88040C12801E12E004E8727 /* Products */ = {
+		C82C724727F1F53D00225109 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C88040C02801E12E004E8727 /* SenlaGames.app */,
+				C82C724627F1F53D00225109 /* 4thtaskSwift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C88040C22801E12E004E8727 /* SenlaGames */ = {
+		C82C724827F1F53D00225109 /* 4thtaskSwift */ = {
 			isa = PBXGroup;
 			children = (
-				C88040C32801E12E004E8727 /* AppDelegate.swift */,
-				C88040C52801E12E004E8727 /* SceneDelegate.swift */,
-				C88040C72801E12E004E8727 /* ViewController.swift */,
-				C88040C92801E12E004E8727 /* Main.storyboard */,
-				C88040CC2801E134004E8727 /* Assets.xcassets */,
-				C88040CE2801E134004E8727 /* LaunchScreen.storyboard */,
-				C88040D12801E134004E8727 /* Info.plist */,
+				C82C724927F1F53D00225109 /* AppDelegate.swift */,
+				C82C724B27F1F53D00225109 /* SceneDelegate.swift */,
+				C82C725227F1F54300225109 /* Assets.xcassets */,
+				C82C725427F1F54300225109 /* LaunchScreen.storyboard */,
+				C82C725727F1F54300225109 /* Info.plist */,
+				C82C725F27F2E81200225109 /* TabBarController.swift */,
+				C82C726127F2E86D00225109 /* NavigationController.swift */,
+				C846D16E27F8E9B600ABE6C1 /* Controller */,
+				C816871627FB83C100ABA2E2 /* Languages.swift */,
+				C816871827FC4B8E00ABA2E2 /* GameMode.swift */,
 			);
-			path = SenlaGames;
+			path = 4thtaskSwift;
+			sourceTree = "<group>";
+		};
+		C846D16E27F8E9B600ABE6C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C82C726327F2E8CF00225109 /* GameViewController.swift */,
+				C82C726527F2E8E000225109 /* CubeViewController.swift */,
+				C8E51E4827F30A77001EFCBB /* SettingsViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C88040BF2801E12E004E8727 /* SenlaGames */ = {
+		C82C724527F1F53C00225109 /* 4thtaskSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C88040D42801E134004E8727 /* Build configuration list for PBXNativeTarget "SenlaGames" */;
+			buildConfigurationList = C82C725A27F1F54300225109 /* Build configuration list for PBXNativeTarget "4thtaskSwift" */;
 			buildPhases = (
-				C88040BC2801E12E004E8727 /* Sources */,
-				C88040BD2801E12E004E8727 /* Frameworks */,
-				C88040BE2801E12E004E8727 /* Resources */,
+				C82C724227F1F53C00225109 /* Sources */,
+				C82C724327F1F53C00225109 /* Frameworks */,
+				C82C724427F1F53C00225109 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SenlaGames;
-			productName = SenlaGames;
-			productReference = C88040C02801E12E004E8727 /* SenlaGames.app */;
+			name = 4thtaskSwift;
+			productName = 4thtaskSwift;
+			productReference = C82C724627F1F53D00225109 /* 4thtaskSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C88040B82801E12E004E8727 /* Project object */ = {
+		C82C723E27F1F53C00225109 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					C88040BF2801E12E004E8727 = {
+					C82C724527F1F53C00225109 = {
 						CreatedOnToolsVersion = 13.3;
 					};
 				};
 			};
-			buildConfigurationList = C88040BB2801E12E004E8727 /* Build configuration list for PBXProject "SenlaGames" */;
+			buildConfigurationList = C82C724127F1F53C00225109 /* Build configuration list for PBXProject "4thtaskSwift" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +133,52 @@
 				en,
 				Base,
 			);
-			mainGroup = C88040B72801E12E004E8727;
-			productRefGroup = C88040C12801E12E004E8727 /* Products */;
+			mainGroup = C82C723D27F1F53C00225109;
+			productRefGroup = C82C724727F1F53D00225109 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C88040BF2801E12E004E8727 /* SenlaGames */,
+				C82C724527F1F53C00225109 /* 4thtaskSwift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C88040BE2801E12E004E8727 /* Resources */ = {
+		C82C724427F1F53C00225109 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C88040D02801E134004E8727 /* LaunchScreen.storyboard in Resources */,
-				C88040CD2801E134004E8727 /* Assets.xcassets in Resources */,
-				C88040CB2801E12E004E8727 /* Main.storyboard in Resources */,
+				C82C725627F1F54300225109 /* LaunchScreen.storyboard in Resources */,
+				C82C725327F1F54300225109 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C88040BC2801E12E004E8727 /* Sources */ = {
+		C82C724227F1F53C00225109 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C88040C82801E12E004E8727 /* ViewController.swift in Sources */,
-				C88040C42801E12E004E8727 /* AppDelegate.swift in Sources */,
-				C88040C62801E12E004E8727 /* SceneDelegate.swift in Sources */,
+				C82C724A27F1F53D00225109 /* AppDelegate.swift in Sources */,
+				C816871727FB83C100ABA2E2 /* Languages.swift in Sources */,
+				C82C726227F2E86D00225109 /* NavigationController.swift in Sources */,
+				C8E51E4927F30A77001EFCBB /* SettingsViewController.swift in Sources */,
+				C82C726027F2E81200225109 /* TabBarController.swift in Sources */,
+				C816871927FC4B8E00ABA2E2 /* GameMode.swift in Sources */,
+				C82C726427F2E8D000225109 /* GameViewController.swift in Sources */,
+				C82C726627F2E8E000225109 /* CubeViewController.swift in Sources */,
+				C82C724C27F1F53D00225109 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C88040C92801E12E004E8727 /* Main.storyboard */ = {
+		C82C725427F1F54300225109 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C88040CA2801E12E004E8727 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C88040CE2801E134004E8727 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C88040CF2801E134004E8727 /* Base */,
+				C82C725527F1F54300225109 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +186,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C88040D22801E134004E8727 /* Debug */ = {
+		C82C725827F1F54300225109 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +246,7 @@
 			};
 			name = Debug;
 		};
-		C88040D32801E134004E8727 /* Release */ = {
+		C82C725927F1F54300225109 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,7 +300,7 @@
 			};
 			name = Release;
 		};
-		C88040D52801E134004E8727 /* Debug */ = {
+		C82C725B27F1F54300225109 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -289,10 +309,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4GKW44TN2C;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SenlaGames/Info.plist;
+				INFOPLIST_FILE = 4thtaskSwift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -300,7 +319,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ru.zacepilkina.SenlaGames;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.zacepilkina.-thtaskSwift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -308,7 +327,7 @@
 			};
 			name = Debug;
 		};
-		C88040D62801E134004E8727 /* Release */ = {
+		C82C725C27F1F54300225109 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -317,10 +336,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4GKW44TN2C;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SenlaGames/Info.plist;
+				INFOPLIST_FILE = 4thtaskSwift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -328,7 +346,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ru.zacepilkina.SenlaGames;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.zacepilkina.-thtaskSwift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -339,25 +357,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C88040BB2801E12E004E8727 /* Build configuration list for PBXProject "SenlaGames" */ = {
+		C82C724127F1F53C00225109 /* Build configuration list for PBXProject "4thtaskSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C88040D22801E134004E8727 /* Debug */,
-				C88040D32801E134004E8727 /* Release */,
+				C82C725827F1F54300225109 /* Debug */,
+				C82C725927F1F54300225109 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C88040D42801E134004E8727 /* Build configuration list for PBXNativeTarget "SenlaGames" */ = {
+		C82C725A27F1F54300225109 /* Build configuration list for PBXNativeTarget "4thtaskSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C88040D52801E134004E8727 /* Debug */,
-				C88040D62801E134004E8727 /* Release */,
+				C82C725B27F1F54300225109 /* Debug */,
+				C82C725C27F1F54300225109 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C88040B82801E12E004E8727 /* Project object */;
+	rootObject = C82C723E27F1F53C00225109 /* Project object */;
 }
