@@ -17,6 +17,15 @@
 		C82C726227F2E86D00225109 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82C726127F2E86D00225109 /* NavigationController.swift */; };
 		C82C726427F2E8D000225109 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82C726327F2E8CF00225109 /* GameViewController.swift */; };
 		C82C726627F2E8E000225109 /* CubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82C726527F2E8E000225109 /* CubeViewController.swift */; };
+		C883009928173C7E00563343 /* GameStatisticsContentConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C883009828173C7E00563343 /* GameStatisticsContentConfiguration.swift */; };
+		C8869721281145DA00ECE3F8 /* TitleHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8869720281145DA00ECE3F8 /* TitleHeaderCollectionReusableView.swift */; };
+		C8A06EA62809A48D003C8DCE /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A06EA52809A48D003C8DCE /* DataStore.swift */; };
+		C8A06EA92809A4B5003C8DCE /* HistoryCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A06EA82809A4B5003C8DCE /* HistoryCollectionItem.swift */; };
+		C8A06EAB2809A4D5003C8DCE /* GameCollectionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A06EAA2809A4D5003C8DCE /* GameCollectionConfiguration.swift */; };
+		C8A06EAD2809A4EC003C8DCE /* CubeCollectionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A06EAC2809A4EC003C8DCE /* CubeCollectionConfiguration.swift */; };
+		C8A06EAF2809A53B003C8DCE /* CubeStatisticsContentConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A06EAE2809A53B003C8DCE /* CubeStatisticsContentConfiguration.swift */; };
+		C8A06EB12809A55F003C8DCE /* CollectionViewLayoutFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A06EB02809A55F003C8DCE /* CollectionViewLayoutFactory.swift */; };
+		C8A06EB32809E2B4003C8DCE /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A06EB22809E2B4003C8DCE /* HistoryViewController.swift */; };
 		C8E51E4927F30A77001EFCBB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E51E4827F30A77001EFCBB /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +42,15 @@
 		C82C726127F2E86D00225109 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		C82C726327F2E8CF00225109 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		C82C726527F2E8E000225109 /* CubeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeViewController.swift; sourceTree = "<group>"; };
+		C883009828173C7E00563343 /* GameStatisticsContentConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStatisticsContentConfiguration.swift; sourceTree = "<group>"; };
+		C8869720281145DA00ECE3F8 /* TitleHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		C8A06EA52809A48D003C8DCE /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		C8A06EA82809A4B5003C8DCE /* HistoryCollectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCollectionItem.swift; sourceTree = "<group>"; };
+		C8A06EAA2809A4D5003C8DCE /* GameCollectionConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCollectionConfiguration.swift; sourceTree = "<group>"; };
+		C8A06EAC2809A4EC003C8DCE /* CubeCollectionConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeCollectionConfiguration.swift; sourceTree = "<group>"; };
+		C8A06EAE2809A53B003C8DCE /* CubeStatisticsContentConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeStatisticsContentConfiguration.swift; sourceTree = "<group>"; };
+		C8A06EB02809A55F003C8DCE /* CollectionViewLayoutFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewLayoutFactory.swift; sourceTree = "<group>"; };
+		C8A06EB22809E2B4003C8DCE /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		C8E51E4827F30A77001EFCBB /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +94,9 @@
 				C846D16E27F8E9B600ABE6C1 /* Controller */,
 				C816871627FB83C100ABA2E2 /* Languages.swift */,
 				C816871827FC4B8E00ABA2E2 /* GameMode.swift */,
+				C886971F281145AF00ECE3F8 /* View */,
+				C8A06EA42809A466003C8DCE /* Data Store */,
+				C8A06EB02809A55F003C8DCE /* CollectionViewLayoutFactory.swift */,
 			);
 			path = 4thtaskSwift;
 			sourceTree = "<group>";
@@ -86,8 +107,30 @@
 				C82C726327F2E8CF00225109 /* GameViewController.swift */,
 				C82C726527F2E8E000225109 /* CubeViewController.swift */,
 				C8E51E4827F30A77001EFCBB /* SettingsViewController.swift */,
+				C8A06EB22809E2B4003C8DCE /* HistoryViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		C886971F281145AF00ECE3F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C8869720281145DA00ECE3F8 /* TitleHeaderCollectionReusableView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C8A06EA42809A466003C8DCE /* Data Store */ = {
+			isa = PBXGroup;
+			children = (
+				C8A06EA52809A48D003C8DCE /* DataStore.swift */,
+				C8A06EA82809A4B5003C8DCE /* HistoryCollectionItem.swift */,
+				C8A06EAA2809A4D5003C8DCE /* GameCollectionConfiguration.swift */,
+				C8A06EAC2809A4EC003C8DCE /* CubeCollectionConfiguration.swift */,
+				C8A06EAE2809A53B003C8DCE /* CubeStatisticsContentConfiguration.swift */,
+				C883009828173C7E00563343 /* GameStatisticsContentConfiguration.swift */,
+			);
+			path = "Data Store";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,14 +204,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				C82C724A27F1F53D00225109 /* AppDelegate.swift in Sources */,
+				C8A06EB12809A55F003C8DCE /* CollectionViewLayoutFactory.swift in Sources */,
+				C8A06EAF2809A53B003C8DCE /* CubeStatisticsContentConfiguration.swift in Sources */,
 				C816871727FB83C100ABA2E2 /* Languages.swift in Sources */,
 				C82C726227F2E86D00225109 /* NavigationController.swift in Sources */,
+				C8869721281145DA00ECE3F8 /* TitleHeaderCollectionReusableView.swift in Sources */,
+				C8A06EA92809A4B5003C8DCE /* HistoryCollectionItem.swift in Sources */,
+				C8A06EA62809A48D003C8DCE /* DataStore.swift in Sources */,
+				C8A06EB32809E2B4003C8DCE /* HistoryViewController.swift in Sources */,
 				C8E51E4927F30A77001EFCBB /* SettingsViewController.swift in Sources */,
 				C82C726027F2E81200225109 /* TabBarController.swift in Sources */,
 				C816871927FC4B8E00ABA2E2 /* GameMode.swift in Sources */,
 				C82C726427F2E8D000225109 /* GameViewController.swift in Sources */,
 				C82C726627F2E8E000225109 /* CubeViewController.swift in Sources */,
+				C8A06EAB2809A4D5003C8DCE /* GameCollectionConfiguration.swift in Sources */,
+				C8A06EAD2809A4EC003C8DCE /* CubeCollectionConfiguration.swift in Sources */,
 				C82C724C27F1F53D00225109 /* SceneDelegate.swift in Sources */,
+				C883009928173C7E00563343 /* GameStatisticsContentConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,13 @@
 
 import UIKit
 
+protocol CubeViewControllerDelegate: AnyObject {
+    func showCubeHistory(cubeData: String?)
+}
+
 class CubeViewController: UIViewController {
+    
+    weak var cubeDelegate: CubeViewControllerDelegate?
     
     private var translater: Translation = EnglishLanguage()
 
@@ -85,6 +91,8 @@ extension CubeViewController {
     
     func rollDice() {
         let diceRoll = Int(arc4random_uniform(6) + 1)
+        
         cubeLabel.text = String(diceRoll)
+        cubeDelegate?.showCubeHistory(cubeData: cubeLabel.text)
     }
 }

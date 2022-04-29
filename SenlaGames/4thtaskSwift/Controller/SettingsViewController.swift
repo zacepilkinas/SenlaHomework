@@ -14,7 +14,6 @@ protocol SettingsViewControllerDelegate: AnyObject {
 
 
 class SettingsViewController: UIViewController {
-    
     enum SettingsControl: Int {
         case language
         case gameMode
@@ -68,16 +67,12 @@ class SettingsViewController: UIViewController {
         setup()
         addSubviews()
         makeConstraints()
-//        backButton = UIBarButtonItem(image: UIImage(systemName: "chevron.backward.circle"), style: .done, target: self, action: #selector(didtapButton(_:)))
-//        backButton.tintColor = .systemPink
-//        navigationItem.leftBarButtonItem = backButton
     }
     
     @objc func didtapButton(_ sender: UIBarButtonItem) {
         navigationController?.popViewController(animated: true)
      }
 
-    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         title = LanguageLocalization.shared.dictionary.settingsTitle
@@ -87,6 +82,13 @@ class SettingsViewController: UIViewController {
         case .russian:
             languageControl.selectedSegmentIndex = 1
         }
+
+        switch GameModeLocalization.shared.gameMode {
+        case .withTie:
+            gameModeControl.selectedSegmentIndex = 0
+        case .withOutTie:
+            gameModeControl.selectedSegmentIndex = 1
+        }
     }
 }
 
@@ -94,7 +96,6 @@ class SettingsViewController: UIViewController {
 extension SettingsViewController {
     
     func makeConstraints() {
-
         languageLabel.translatesAutoresizingMaskIntoConstraints = false
         languageControl.translatesAutoresizingMaskIntoConstraints = false
         
@@ -155,9 +156,9 @@ extension SettingsViewController {
         
         switch chosenGameMode {
         case .withTie:
-            settingsDelegate?.didChangeGameMode(gameMode: .withTie)
+            GameModeLocalization.shared.gameMode = .withTie
         case .withOutTie:
-            settingsDelegate?.didChangeGameMode(gameMode: .withOutTie)
+            GameModeLocalization.shared.gameMode = .withOutTie
         }
     }
 }

@@ -35,8 +35,17 @@ class TabBarController: UITabBarController {
 private extension TabBarController {
     
     func setupTabBar() {
-        let game = NavigationController(rootViewController: GameViewController())
-        let rollDice = NavigationController(rootViewController: CubeViewController())
+        let historyController = HistoryViewController()
+        let gameController = GameViewController()
+        let rolldiceController = CubeViewController()
+        
+        gameController.gameDelegate = historyController
+        rolldiceController.cubeDelegate = historyController
+        
+        let game = NavigationController(rootViewController: gameController)
+        let rollDice = NavigationController(rootViewController: rolldiceController)
+        let history = NavigationController(rootViewController: historyController)
+        
         
         let configuration = UIImage.SymbolConfiguration(pointSize: 24, weight: .semibold)
         
@@ -57,8 +66,17 @@ private extension TabBarController {
         
         rollDice.tabBarItem.selectedImage = UIImage(systemName: "cube.fill", withConfiguration: configuration)
         
+        history.tabBarItem = UITabBarItem(
+            title: "History",
+            image: UIImage(systemName: "menucard", withConfiguration: configuration),
+            tag: 3
+            )
         
-        setViewControllers([game, rollDice], animated: false)
+        history.tabBarItem.selectedImage = UIImage(systemName: "menucard.fill", withConfiguration: configuration)
+        
+        setViewControllers([game, rollDice, history], animated: false)
         
     }
+    
+    
 }
