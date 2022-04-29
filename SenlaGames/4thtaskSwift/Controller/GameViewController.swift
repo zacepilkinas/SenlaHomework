@@ -7,20 +7,24 @@
 
 import UIKit
 
-// как сохранить состояние кнопки??
-// почему не меняется язык у тайтлов у контроллеров??
-//как загрузить в гит работу?
+
+protocol GameViewControllerDelegate: AnyObject {
+    func showGameHistory(computer: Selection, player: Selection, final: String?)
+}
+
+
+enum Selection: Int, CaseIterable {
+    case stone = 0
+    case scissors = 1
+    case paper = 2
+}
+
 
 class GameViewController: UIViewController {
-    
-    private var modeChange = GameMode.withTie
-    
-    enum Selection: Int, CaseIterable {
-        case stone = 0
-        case scissors = 1
-        case paper = 2
-    }
 
+    weak var gameDelegate: GameViewControllerDelegate?
+    
+    
     lazy var settingsButton: UIButton = {
         let button = UIButton()
         button.setImage(UIImage(systemName: "gear"), for: .normal)
@@ -82,7 +86,6 @@ class GameViewController: UIViewController {
         return view
     }()
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         setup()
@@ -99,12 +102,6 @@ class GameViewController: UIViewController {
 
 extension GameViewController: SettingsViewControllerDelegate {
     func didChangeGameMode(gameMode: GameMode) {
-        switch gameMode {
-        case .withTie:
-            modeChange = .withTie
-        case .withOutTie:
-            modeChange = .withOutTie
-        }
     }
     
     func didChangeLanguage(language: Languages) {
@@ -117,7 +114,9 @@ extension GameViewController: SettingsViewControllerDelegate {
     }
 }
 
-private extension GameViewController {
+
+
+extension GameViewController {
     
     func setup() {
         navigationItem.rightBarButtonItem = UIBarButtonItem(customView: settingsButton)
@@ -177,19 +176,20 @@ private extension GameViewController {
             fatalError()
         }
         
-        print("Computer choice: \(computerChoice), your choice: \(u)")
-
         switch (u, computerChoice){
             case (.stone, .stone), (.scissors, .scissors), (.paper, .paper):
-                if modeChange == .withTie {
+            if GameModeLocalization.shared.gameMode == .withTie {
                     gameLabel.text = LanguageLocalization.shared.dictionary.tie
+                gameDelegate?.showGameHistory(computer: computerChoice, player: u, final: gameLabel.text)
                 }
                 break
             case (.stone, .scissors), (.scissors, .paper), (.paper, .stone):
                 gameLabel.text = LanguageLocalization.shared.dictionary.win
+                gameDelegate?.showGameHistory(computer: computerChoice, player: u, final: gameLabel.text)
                 break
             case (.paper, .scissors), (.scissors, .stone), (.stone, .paper):
                 gameLabel.text = LanguageLocalization.shared.dictionary.computer
+                gameDelegate?.showGameHistory(computer: computerChoice, player: u, final: gameLabel.text)
             break
         }
     }
